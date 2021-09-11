@@ -62,6 +62,7 @@ function CreateCalentar(contenedor, datos, year, month) {
         zoomLevel: 'year',
         startDateExpr: "StartDate",
         endDateExpr: "EndDate",
+        textExpr: "Descripcion",
         min: new Date(year, month - 1, 01),
         max: new Date(year, month - 1, GetUltimoDiaMes(year, month)),
         currentDate: new Date(year, month - 1, 01),
