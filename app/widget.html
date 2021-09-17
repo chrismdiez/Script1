@@ -14,6 +14,13 @@
   <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/21.1.5/js/dx.all.js"></script>
   <script type="text/javascript" src="https://js.zohostatic.com/creator/widgets/version/1.0/widgetsdk-min.js"></script>
   <script type="text/javascript" src="functions.js"></script>
+
+  <style>
+    .dx-scheduler-overlay-panel .dx-tooltip-appointment-item .dx-tooltip-appointment-item-marker-body {
+
+      background-color: black;
+    }
+  </style>
 </head>
 
 <body>
@@ -35,12 +42,15 @@
     <div class="row">
       <div class="col-md-4">
         <div class="calendario"></div>
+        <div id="calendario"></div>
       </div>
       <div class="col-md-4">
         <div class="calendario2"></div>
+        <div id="calendario2"></div>
       </div>
       <div class="col-md-4">
         <div class="calendario3"></div>
+        <div id="calendario3"></div>
       </div>
     </div>
   </div>
